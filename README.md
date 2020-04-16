@@ -13,6 +13,6 @@ Breaking the script into more manageable blocks:
 
 2b (maybe): Make the script more flexible! Since different tasks have different time durations, the text file might have different rows depending on what task we want to look at. Maybe set up a task decoder to help us with this. 
 
-3: Compute the mean for each of the six columns 
+3: Compute the mean for each of the six columns (with Pandas?) 
 
-4: Compute a mean for all six of these displacement measurements. 
+4: Compute a mean for all six of these displacement measurements (with Pandas?) 
