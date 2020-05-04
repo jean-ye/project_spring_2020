@@ -34,4 +34,4 @@ def test_avg_sum2():
     sample_df = pd.DataFrame(data = sample_data)
     results = compute_mean_for_each_column(sample_df)
     sum_results = compute_mean_of_all_columns(results)
-    assert sum_results = 1
+    assert sum_results == 1
