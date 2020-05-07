@@ -33,7 +33,7 @@ def compute_mean_of_all_columns(means_separated):
     return column_means
 
 def saving_out_text_files_with_averages(means,column_means):
-    """Save the averages computed by the previous two functions in text files"""
+    """Save the averages computed by the previous two functions in text files in the participant's directory"""
     np.savetxt('Mean_of_Each_Motion_Parameters', X = means)
     np.savetxt('Mean_of_All_Motion_Parameters', X = [column_means])
 
